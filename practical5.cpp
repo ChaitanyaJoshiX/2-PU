@@ -34,7 +34,6 @@ void BinarySearch::input()
   {
     cin >> arr[i];
   }
-
 }
 
 void BinarySearch::search()
