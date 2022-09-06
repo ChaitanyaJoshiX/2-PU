@@ -39,7 +39,7 @@ void ElementFrequency::find()
   {
     if(arr[i] == ele)
     {
-      freq++;
+      ++freq;
     }
   }
 }
