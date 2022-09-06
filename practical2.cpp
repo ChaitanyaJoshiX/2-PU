@@ -55,7 +55,7 @@ void InsertElement::insert()
     arr[i+1] = arr[i];
   }
   arr[pos] = ele;
-  n++;
+  ++n;
 }
 
 void InsertElement::display()
