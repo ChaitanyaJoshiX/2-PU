@@ -54,7 +54,7 @@ void DeleteElement::deletee()
   {
     arr[i] = arr[i+1];
   }
-  n--; // Decrementing array size by 1
+  --n; // Decrementing array size by 1
 }
 
 void DeleteElement::display()
