@@ -23,7 +23,7 @@ void SimpleInterest::input()
 {
     cout << "Enter the principle : ";
     cin >> principle ;
-    cout << "Enter the time period (years) : ";
+    cout << "Enter the time period (in years) : ";
     cin >> time;
     cout << "Enter the rate of interest : ";
     cin >> rate;
