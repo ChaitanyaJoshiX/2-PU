@@ -7,7 +7,7 @@ insertion sort.
 
 #include <iostream.h>
 #include <conio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 
 class InsertSort
 {
