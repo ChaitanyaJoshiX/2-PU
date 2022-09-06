@@ -35,7 +35,7 @@ void Quadratic::input()
 
 void Quadratic::calculate()
 {
-    dis = (b*b) - (4 * a * c);
+    dis = (b*b) - (4*a*c);
 }
 
 void Quadratic::display()
