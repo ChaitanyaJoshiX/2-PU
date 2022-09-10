@@ -13,7 +13,6 @@ class CubeOfNumber
   double n, cube;
   void input();
   double findCube();
-
 };
 
 void CubeOfNumber::input()
