@@ -2,6 +2,8 @@
 Create a class containing the following data members Register No, Name and Fees.
 Also create a member function to read and display the data using the concept of
 pointers to objects.
+
+Author : @ChaitanyaJoshiX
 */
 
 #include <iostream.h>
