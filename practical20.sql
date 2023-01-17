@@ -2,11 +2,11 @@
 Generate the Employee details and compute the salary based on the department.
 
 1. Create the following table EMPLOYEE
-   Field Name Type
-   EMP_ID     int
-   DEPT_ID    int
-   EMP_NAME   VARCHAR(15)
-   EMP_SALARY int
+   Field Name  Type
+   EMP_ID      int
+   DEPT_ID     int
+   EMP_NAME    VARCHAR(15)
+   EMP_SALARY  int
 
 2. Create another table DEPARTMENT
 Field Name Type
