@@ -1,0 +1,88 @@
+<!-- Create an HTML program with Form -->
+<HTML>
+    <HEAD>
+    <TITLE> E-APPLICATION </TITLE>
+    </HEAD>
+    <BODY>
+        <FORM NAME=”FORM” METHOD=”POST” ACTION=”KCET_SEND.PHP>
+            <H1 ALIGN=CENTER> KCET APPLICATION </H1>
+            <TABLE border=4 CELLSPACING=10 CELLPADDING=10% ALIGN=CENTER>
+                <TR>
+                    <TD ALIGN=LEFT> Student Name : </TD>
+                    <TD> <INPUT TYPE=”TEXT” NAME=”STUDNAME”></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN=LEFT> Father Name : </TD>
+                    <TD> <INPUT TYPE=”TEXT” NAME=”FATNAME”> </TD>
+                </TR>
+                <TR>
+                    <TD ALIGN=LEFT> Father Occupation : </TD>
+                    <TD><INPUT TYPE=”TEXT” NAME=”OCCUP”></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN=LEFT> Date of Birth : </TD>
+                    <TD><INPUT TYPE=”TEXT” NAME=”DOB”></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN=LEFT> Contact No : </TD>
+                    <TD><INPUT TYPE=”TEXT” NAME=”CONTACT”></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN=LEFT> Email Id : </TD>
+                    <TD><INPUT TYPE=”TEXT” NAME=”EMAIL”></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN=LEFT> Photo Upload : </TD>
+                    <TD><INPUT TYPE=FILE NAME=”PHOTO”></TD>
+                </TR>
+                <TR>
+                    <TD ALIGN=LEFT> Gender : </TD>
+                    <TD>
+                        <INPUT TYPE=RADIO NAME=GEND VALUE=”M”> Male
+                        <INPUT TYPE=RADIO NAME=GEND VALUE=”F”> Female
+                    </TD>
+                </TR>
+                <TR>
+                    <TD align=LEFT> Category : </td>
+                      <td>
+                        <SELECT NAME=”DROPDOWN”>
+                            <OPTION VALUE=1>GEN</OPTION>
+                            <OPTION VALUE=2>SC</OPTION>
+                            <OPTION VALUE=3>ST</OPTION>
+                        </SELECT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD ALIGN=LEFT> Board : </td>
+                      <td>
+                        <SELECT NAME=”DROPDOWN”>
+                            <OPTION VALUE=1>ICSE</OPTION>
+                            <OPTION VALUE=2>CBSE</OPTION>
+                            <OPTION VALUE=3>SSLC</OPTION>
+                        </SELECT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD align=LEFT> ADDRESS : </td>
+                    <td> <TEXTAREA NAME=ADD></TEXTAREA> </TD>
+                </TR>
+                <TR>
+                    <TD align=LEFT>SUBJECT CHOOSEN: </TD>
+                    <TD>
+                    <INPUT TYPE=CHECKBOX NAME=LANG1 >English
+                    <INPUT TYPE=CHECKBOX NAME=LANG2 >Hindi
+                    <INPUT TYPE=CHECKBOX NAME=SUB1 >Physics
+                    <INPUT TYPE=CHECKBOX NAME=SUB2 >Chemistry
+                    <INPUT TYPE=CHECKBOX NAME=SUB3 >Mathematics
+                    <INPUT TYPE=CHECKBOX NAME=SUB4 >Computers
+                    <INPUT TYPE=CHECKBOX NAME=SUB4 >Biology
+                    </TD>
+                </TR>
+                <TR>
+                    <TD><INPUT TYPE="SUBMIT" VALUE="Submit"> </TD>
+                    <TD><INPUT TYPE="RESET" VALUE="Reset"></TD>
+                </TR>
+            </TABLE>
+        </FORM>
+    </BODY>
+</HTML>
