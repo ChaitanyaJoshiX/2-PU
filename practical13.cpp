@@ -7,7 +7,7 @@ WAP to  push items into the stack.
 #include <iostream.h>
 #include <conio.h>
 #include <stdlib.h>
-#define size 5
+#define size 6
 
 class StackPush
 {
