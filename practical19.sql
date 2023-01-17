@@ -3,14 +3,14 @@ Create a student database and compute the results.
 
 1. Create a table for class of students with the following fields.
     Field Name     Type
-	  id		         int
-	  name 		       varchar(10)
-	  sub1 		       int
-	  sub2           int
-		sub3 		   		 int
-		sub4 		   		 int
-		sub5 		   		 int
-		sub6           int
+	  id	   int
+	  name 	   varchar(10)
+	  sub1 	   int
+	  sub2     int
+	  sub3 	   int
+	  sub4 	   int
+	  sub5 	   int
+  	  sub6     int
 
 2. Add records into the table for 10 students.
 
