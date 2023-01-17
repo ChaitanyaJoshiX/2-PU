@@ -3,6 +3,8 @@ Create a base class containing the data member roll number and name. Also create
 member function to read and display the data using the concept of single level
 inheritance. Create a derived class that contains marks of two subjects and total marks
 as the data members.
+
+Author : @ChaitanyaJoshiX
 */
 #include <iostream.h>
 #include <conio.h>
