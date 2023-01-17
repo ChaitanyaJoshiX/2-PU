@@ -1,5 +1,5 @@
 /*
-WAP to find sum of the series 1 + x + x^2 + x^3 + ….x^n using
+WAP to find sum of the series 1 + x + x^2 + x^3 + …. x^n using
 constructors.
 
 @ChaitanyaJoshiX
