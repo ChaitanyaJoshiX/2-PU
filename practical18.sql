@@ -2,7 +2,7 @@
 Generate the electricity bill for one customer.
 
 1. Create a table for house hold Electricity bill with the following fields.
-    Field Name     Type
+    Field Name         Type
 	RR_NO          varchar(10)
 	CUS_NAME       varchar(15)
 	BILLING_DATE   date
