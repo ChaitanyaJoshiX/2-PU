@@ -2,13 +2,14 @@
 Create a bank transaction File.
 
 1. create table with the following fields
-   accnum int
-   cusname varchar(10)
-   acctype varchar(2)
-   balance int
-   tradate date
-   traamount int
-   tratype varchar(1)
+   Field Name  Type
+   accnum      int
+   cusname     varchar(10)
+   acctype     varchar(2)
+   balance     int
+   tradate     date
+   traamount   int
+   tratype     varchar(1)
 
 2. Add records into the table for 10 customers.
 
@@ -22,6 +23,7 @@ Create a bank transaction File.
 
 7. Display all the records of account.
 
+Author : @ChaitanyaJoshiX
 */
 
 create database banktra;
